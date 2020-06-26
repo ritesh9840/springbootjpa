@@ -42,6 +42,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 		
 	}
 	
+	// This bean annotation is necessary
 	@Bean
 	public PasswordEncoder getPasswordEncoder()
 	{
